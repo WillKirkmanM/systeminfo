@@ -1,0 +1,8 @@
+[package]
+name = "systeminfo"
+version = "0.1.0"
+edition = "2024"
+description = "The Systeminfo Command Compares Saved Windows System Inventories by Host, Revealing Changes to OS Versions, Hardware Models, and Physical Memory"
+
+[dependencies]
+clap = { version = "=4.6.6", features = ["derive"] }
